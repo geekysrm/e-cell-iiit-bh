@@ -12,9 +12,9 @@ class Hero extends Component {
         </video>
         <div id="content">
           <h1>Entrepreneurship Cell, IIIT-Bh</h1>
-          <p>
+          <div>
             All our dreams can come true, if we have the courage to pursue them.
-          </p>
+          </div>
           <a href="#" className="btn">
             View More
           </a>
