@@ -8,6 +8,14 @@ class Home extends Component {
     return (
       <div className="container">
         <nav>
+
+          <div>
+            <a href="#" >Home</a>
+          </div>
+          <div>
+            <a href="#" >Contact Us</a>
+          </div>
+
         </nav>
         <Hero />
       </div>
