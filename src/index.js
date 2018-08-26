@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 import registerServiceWorker from "./registerServiceWorker";
 import "./index.css";
-import Test from "./components/Test";
+import Home from "./pages/Home/";
 
-ReactDOM.render(<Test />, document.getElementById("root"));
+ReactDOM.render(<Home />, document.getElementById("root"));
 registerServiceWorker();
