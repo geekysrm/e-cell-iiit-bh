@@ -1,4 +1,58 @@
 @import "../../default-styles/colors";
 
-.container {
-}
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: $dark;
+    height: 100vh;
+    width: 350px;
+    position: fixed;
+    transform: translateX(-350px);
+    transition: transform 0.3s ease-in-out;
+    z-index: 2;
+  }
+  
+  nav:after {
+    content: '';
+    background: $dark;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: -40px;
+    top: 80vh;
+    border-radius: 50%;
+  }
+  
+  nav:hover {
+    transform: translateX(0px);
+  }
+
+  @media only screen and (max-width: 600px) 
+  {
+    nav {
+        background-color: $dark;
+        height: 100vh;
+        width: 200px;
+        position: fixed;
+        transform: translateX(-200px);
+        transition: transform 0.3s ease-in-out;
+        z-index: 2;
+      }
+      nav:after {
+        content: '';
+        background: $dark;
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        right: -30px;
+        top: 80vh;
+        border-radius: 50%;
+      }
+      
+      nav:hover {
+        transform: translateX(0px);
+      }
+  }

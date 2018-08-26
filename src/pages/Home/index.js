@@ -7,6 +7,8 @@ class Home extends Component {
   render() {
     return (
       <div className="container">
+        <nav>
+        </nav>
         <Hero />
       </div>
     );
