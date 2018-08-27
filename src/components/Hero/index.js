@@ -7,9 +7,11 @@ class Hero extends Component {
   render() {
     return (
       <div id="hero">
-        <video autoPlay muted loop id="video">
-          <source src={video} type="video/mp4" />
-        </video>
+        <div>
+          <video autoPlay muted loop id="video">
+            <source src={video} type="video/mp4" />
+          </video>
+        </div>
         <div id="content">
           <h1>Entrepreneurship Cell, IIIT-Bh</h1>
           <div>
