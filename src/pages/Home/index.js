@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
 import Hero from "../../components/Hero/";
+import Taglines from '../../components/Taglines';
+
 import "./style.css";
 
 class Home extends Component {
@@ -17,7 +19,11 @@ class Home extends Component {
           </div>
 
         </nav>
+
         <Hero />
+      
+        <Taglines />
+      
       </div>
     );
   }

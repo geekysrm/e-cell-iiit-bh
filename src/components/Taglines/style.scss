@@ -1,0 +1,58 @@
+@import '../../default-styles/colors';
+
+.tagline
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.tag-heading
+{
+    color: $dark;
+    font-size: 3em;
+    text-decoration: none;
+    border: 0;
+    border-radius: .1em;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(to left, #43cea2, #185a9d);
+    border-image-slice: 1;
+    padding: .25em .5em;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.tag
+{
+    padding: 20px;
+    font-size: 1.5em;
+    font-family: 'Metamorphous', cursive;
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px)
+{
+    .tag-heading
+    {
+        color: $dark;
+        font-size: 2em;
+        text-decoration: none;
+        border: 0;
+        border-radius: .1em;
+        border-bottom: 4px solid;
+        border-image: linear-gradient(to left, #43cea2, #185a9d);
+        border-image-slice: 1;
+        padding: .25em .5em;
+        text-transform: uppercase;
+        font-family: 'Fjalla One', sans-serif;
+    }
+    
+    .tag
+    {
+        padding: 20px;
+        font-size: 1em;
+        font-family: 'Metamorphous', cursive;
+        text-align: center;
+    }
+}
