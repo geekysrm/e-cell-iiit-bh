@@ -1,0 +1,121 @@
+@import '../../default-styles/colors';
+
+  
+  .hr
+  {
+    margin: 5%; 
+    opacity: .5;
+  }
+  
+  .testimonial-quote 
+  {
+      font-size: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+
+  @media only screen and (max-width: 500px)
+  {
+    .testimonial-quote {
+        font-size: 16px;
+    }
+  }
+
+  .image-container
+  {
+      width:200px;
+      display: flex;
+      justify-content: center;
+  }
+
+  
+  .testimonial-quote blockquote {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      max-width: 600px;
+      background: none;
+      color: gray;
+      font-family: Georgia, serif;
+      font-size: 1.5em;
+      font-style: italic;
+      line-height: 1.4 !important;
+      margin: 0;
+      position: relative;
+      text-shadow: 0 1px white;
+      z-index: 600;
+  }
+  
+  .testimonial-quote blockquote * {
+      box-sizing: border-box; 
+  }
+  
+  .testimonial-quote blockquote p {
+      color: $dark; 
+      line-height: 1.4 !important;
+  }
+  
+  .testimonial-quote blockquote p:first-child:before {
+      content: '\201C';
+      color: #2B8F9F;
+      font-size: 7.5em;
+      font-weight: 700;
+      opacity: .3;
+      position: absolute;
+      top: -.4em;
+      left: -.2em;    
+      text-shadow: none;
+      z-index: -300;
+  }
+  
+  .testimonial-quote img {
+      border: 3px solid #2B8F9F;
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      top: -.2em; 
+      left: 0;    
+      object-fit: contain;
+  }
+
+  @media only screen and (max-width: 500px)
+  {
+    .testimonial-quote img {
+        border: 3px solid #2B8F9F;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        top: -.2em; 
+        left: 0;    
+        object-fit: contain;
+    }
+  }
+  
+  .testimonial-quote cite {
+      color: gray;
+      display: block;
+      font-size: .8em; 
+  }
+    
+  .testimonial-quote cite span {
+      color: $dark;
+      font-size: 1em;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-shadow: 0 1px white; 
+  }
+  
+  .testimonial-quote {
+      position: relative; 
+  }
+  
+  .testimonial-quote .quote-container {
+    text-align: center;  
+    padding: 20px; 
+  }
+    
+  

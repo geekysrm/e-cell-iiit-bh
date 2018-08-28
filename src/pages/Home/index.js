@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import Hero from "../../components/Hero/";
 import Taglines from '../../components/Taglines';
+import Quotes from '../../components/Quotes';
 
 import "./style.css";
 
@@ -23,6 +24,8 @@ class Home extends Component {
         <Hero />
       
         <Taglines />
+
+        <Quotes />
       
       </div>
     );
