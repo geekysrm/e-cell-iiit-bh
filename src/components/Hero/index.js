@@ -17,8 +17,8 @@ class Hero extends Component {
           <div>
             All our dreams can come true, if we have the courage to pursue them.
           </div>
-          <a href="#" className="btn">
-            View More
+          <a href="#events" className="btn">
+            View events
           </a>
         </div>
       </div>
