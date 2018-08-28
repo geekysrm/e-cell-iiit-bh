@@ -3,7 +3,11 @@ import React, { Component } from "react";
 import Hero from "../../components/Hero/";
 import Taglines from "../../components/Taglines";
 import Quotes from "../../components/Quotes";
+<<<<<<< HEAD
 import Footer from '../../components/Footer';
+=======
+import Events from "../../components/Events";
+>>>>>>> bd6ccf143623200eda49a2a0407a6e0f3a8ccb55
 
 import "./style.css";
 
@@ -16,7 +20,10 @@ class Home extends Component {
             <a href="#">Home</a>
           </div>
           <div>
-            <a href="#">Contact Us</a>
+            <a href="#events">Events</a>
+          </div>
+          <div>
+            <a href="#contact">Contact Us</a>
           </div>
         </nav>
 
@@ -24,10 +31,11 @@ class Home extends Component {
 
         <Taglines />
         <div class="parallax1" />
-        <Quotes />
+        <Events id="events" />
         <div class="parallax2" />
+        <Quotes />
         <Footer />
-
+        
       </div>
     );
   }
