@@ -8,6 +8,10 @@ class Quotes extends Component
     {
         return (
             <div className="quote"> 
+            <br />
+            <br />
+            <br />
+            <br />
 
                 <div className="testimonial-quote group">
 
@@ -61,6 +65,10 @@ class Quotes extends Component
                     </div>
                 </div> 
 
+                <br />
+                <br />
+                <br />
+                <br />
             </div>
         );
     }

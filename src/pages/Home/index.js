@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Hero from "../../components/Hero/";
 import Taglines from "../../components/Taglines";
 import Quotes from "../../components/Quotes";
+import Footer from '../../components/Footer';
 import Events from "../../components/Events";
 
 import "./style.css";
@@ -30,6 +31,8 @@ class Home extends Component {
         <Events id="events" />
         <div class="parallax2" />
         <Quotes />
+        <Footer />
+
       </div>
     );
   }
