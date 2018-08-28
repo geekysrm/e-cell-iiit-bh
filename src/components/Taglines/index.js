@@ -35,7 +35,9 @@ class Taglines extends Component
                         All our dreams can come true, if we have the courage to pursue them.
                     </div>
                 </div>
-
+                <br />
+                <br />
+                <br />
             </div>
         );
     }

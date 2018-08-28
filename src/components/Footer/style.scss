@@ -1,0 +1,31 @@
+@import '../../default-styles/colors';
+
+.footer
+{
+    background-color: #222222;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.copyright
+{
+    text-align: center;
+    color: #aaa;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.names
+{
+    text-decoration: none!important;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #aaa;
+}
+
+.names:hover
+{
+    color: white;
+}
