@@ -3,11 +3,8 @@ import React, { Component } from "react";
 import Hero from "../../components/Hero/";
 import Taglines from "../../components/Taglines";
 import Quotes from "../../components/Quotes";
-<<<<<<< HEAD
 import Footer from '../../components/Footer';
-=======
 import Events from "../../components/Events";
->>>>>>> bd6ccf143623200eda49a2a0407a6e0f3a8ccb55
 
 import "./style.css";
 
@@ -35,7 +32,7 @@ class Home extends Component {
         <div class="parallax2" />
         <Quotes />
         <Footer />
-        
+
       </div>
     );
   }
