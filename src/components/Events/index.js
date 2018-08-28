@@ -15,8 +15,16 @@ import EventCard from "../EventCard/";
 class Events extends Component {
   render() {
     return (
-      <div id="events">
-        <EventCard />
+      <div className="events-container">
+        <div className="events-page-heading">
+          We Believe In Learning By Doing
+        </div>
+
+        <br />
+
+        <div className="card-container">
+          <EventCard />
+        </div>
       </div>
     );
   }

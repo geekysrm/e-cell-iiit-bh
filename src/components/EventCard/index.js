@@ -1,27 +1,28 @@
-import React from "react";
-import { Card, CardText, CardBody, CardTitle, CardSubtitle } from "reactstrap";
+import React, { Component } from "react";
 
-const EventCard = props => {
-  return (
-    <div>
-      <Card>
-        <CardBody>
-          <CardTitle>Launch Event</CardTitle>
-          <CardSubtitle>30 Aug, 2018.</CardSubtitle>
-        </CardBody>
-        <img
-          width="100%"
-          src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
-        />
-        <CardBody>
-          <CardText>
-            The official launch of E Cell of IIIT Bhubaneswar. See you all
-            there!
-          </CardText>
-        </CardBody>
-      </Card>
-    </div>
-  );
-};
+import "./style.css";
+
+class EventCard extends Component {
+  render() {
+    return (
+      <div className="event-card-container">
+        <div className="event-image-container">
+          <img
+            src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
+            alt=""
+          />
+        </div>
+
+        <div className="event-title">Launch event</div>
+
+        <div className="event-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+
+        <br />
+      </div>
+    );
+  }
+}
 
 export default EventCard;
