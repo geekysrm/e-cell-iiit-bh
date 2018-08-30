@@ -5,12 +5,14 @@ import Taglines from "../../components/Taglines";
 import Quotes from "../../components/Quotes";
 import Footer from "../../components/Footer";
 import EventCard from "../../components/EventCard";
+import Carousel from "../../components/Carousel";
 
 import "./style.css";
 
 class Home extends Component {
   render() {
-    return <div className="container">
+    return (
+      <div className="container">
         <nav>
           <div>
             <a href="#">Home</a>
@@ -29,9 +31,11 @@ class Home extends Component {
         <div class="parallax1" />
         <EventCard id="events" />
         <div class="parallax2" />
-        <Quotes />
+        {/* <Quotes /> */}
+        <Carousel />
         <Footer />
-      </div>;
+      </div>
+    );
   }
 }
 
